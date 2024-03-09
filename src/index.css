@@ -3,6 +3,11 @@
 @import "tailwindcss/utilities";
 
 @font-face {
-  font-family: "Komigo";
-  src: url("./assets/Fonts/Komigo3D-Regular.ttf") format("truetype");
+  font-family: "SuperMario256";
+  src: url("./assets/Fonts/SuperMario256.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PallyBold";
+  src: url("./assets/Fonts/PallyBold.otf") format("truetype");
 }

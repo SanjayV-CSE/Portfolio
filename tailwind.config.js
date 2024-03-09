@@ -4,14 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nippo: ["nippo", "sans-serif"],
-        boxing: ["boxing", "sans-serif"],
-        TheBocone: ["TheBocone", "sans-serif"],
-        Komigo: ["Komigo", "sans-serif"],
+        SuperMario256: ["SuperMario256", "sans-serif"],
+        PallyBold: ["PallyBold", "sans-serif"],
       },
       boxShadow: {
         // define your shadow variants here
-        'orange': '0 4px 6px -1px rgba(255, 99, 71, 0.1), 0 2px 4px -1px rgba(255, 99, 71, 0.06)',
+        orange:
+          "0 4px 6px -1px rgba(255, 99, 71, 0.1), 0 2px 4px -1px rgba(255, 99, 71, 0.06)",
       },
     },
   },
