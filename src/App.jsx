@@ -1,6 +1,8 @@
-function App() {
+import React from 'react'
+import sanjay from './assets/Images/sanjay.png'
+const App = () => {
   return (
-    <>
+    <div>
       <div className="h-screen bg-gradient-to-r from-gray-300 from-1% via-orange-200 to-gray-300 to-1%">
         <div className="relative cursor-pointer top-3">
           <i
@@ -53,7 +55,7 @@ function App() {
           ></i>
         </div>
         <div className="flex flex-col justify-center items-center p-12 text-center text-black">
-          <img className="w-4/12" src="src\assets\Images\sanjay.png" alt="" />
+          <img className="w-4/12" src={sanjay} alt="" />
           <div className="balls relative">
             <div className="bg-white p-3 rounded-full absolute -top-[195px] left-[36px]">
               <div className="w-2 h-2 rounded-full bg-black"></div>
@@ -86,7 +88,8 @@ function App() {
           praesentium reprehenderit qui quaerat. Eligendi, eius nostrum.
         </p>
       </div>
-    </>
-  );
+    </div>
+  )
 }
-export default App;
+
+export default App
