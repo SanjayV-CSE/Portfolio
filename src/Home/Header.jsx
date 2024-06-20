@@ -48,7 +48,7 @@ const Header = () => {
           ></i>
         </div>
         <div className="flex flex-col justify-center items-center p-6 text-center text-black gap-y-4">
-          <img className="w-22 mt-24 sm:w-96 lg:w-[520px]" src={sanjay} alt="" />
+          <img className="w-22 mt-24 sm:w-96 lg:w-[520px]" src={sanjay} alt="" loading='lazy'/>
           <h1 className="text-3xl sm:text-5xl lg:text-7xl tracking-[0.3rem] lg:tracking-[0.8rem] font-SuperMario256">
             <p>HELLO, MY <p className='text-orange-700'>BEST FRIEND</p></p>
           </h1>

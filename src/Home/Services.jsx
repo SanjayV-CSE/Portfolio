@@ -50,7 +50,7 @@ const Services = () => {
                 Transform your <b>BRAND IDENTITY</b> with my Graphic
                 Design services. From captivating <b>LOGOS</b> to stunning
                 <b> Flyers</b>.{" "}
-                <a href="https://www.behance.net/sanjayv2003" target="_blank">
+                <a href="https://www.behance.net/sanjayv2003/services" target="_blank">
                   <i class="fa-solid fa-up-right-from-square fa-lg fa-beat ml-2 text-orange-600"></i>
                 </a>{" "}
               </p>
@@ -64,7 +64,7 @@ const Services = () => {
                 Satisfy your <b>IDEA</b> with my <b>UI/UX Design</b>. I
                 make seamless user experiences to ensure every interaction, it make your digital platform is
                 memorable
-                <a href="https://www.behance.net/sanjayv2003" target="_blank">
+                <a href="https://www.behance.net/sanjayv2003/services" target="_blank">
                   <i class="fa-solid fa-up-right-from-square fa-lg fa-beat ml-2 text-orange-600"></i>
                 </a>
               </p>

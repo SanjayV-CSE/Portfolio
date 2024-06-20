@@ -32,7 +32,7 @@ const ImageSlider = () => {
         </h1>
         <h2 className="text-sm lg:text-xl font-Pally">What they like actually ?</h2>
       </div>
-      <Slider {...settings} className="w-94 mt-10 space-x-4">
+      <Slider {...settings} className="w-94 mt-10 space-x-4 max-sm:space-x-18">
         <div>
           <img src={slider5} alt="" />
         </div>
@@ -58,7 +58,7 @@ const ImageSlider = () => {
       </Slider>
       <div className="flex justify-center items-center mt-12">
         <button className="w-30 font-Jersey text-xl tracking-widest bg-orange-600 rounded px-3 py-2 text-white shadow-md shadow-black left-2">
-          <a href="https://www.behance.net/sanjayv2003" target="_blank">
+          <a href="https://www.behance.net/sanjayv2003/services" target="_blank">
             View More
           </a>
         </button>
