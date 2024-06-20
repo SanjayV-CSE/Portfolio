@@ -36,6 +36,7 @@ const App = () => {
     { component: 'Services', icon: 'fa-users' },
     { component: 'ImageSlider', icon: 'fa-medal' },
     { component: 'Testimonial', icon: 'fa-comments' },
+    { component: 'Testimonial', icon: 'fa-comments' },
   ];
 
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import contactMe from '../assets/Images/contactMe.png';
-import Services from './Services';
+
 
 export const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -31,21 +31,21 @@ export const ContactPage = () => {
       <div className='flex flex-col gap-x-24 md:flex-row justify-center items-center p-10 mt-4 rounded bg-white'>
         <div>
         <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="2a751c73-47f4-4089-8520-d20a6d340b39" />
+          <input type="hidden" name="access_key" value="2a751c73-47f4-4089-8520-d20a6d340b39" />
   
-  <label className="block text-gray-700 font-bold mb-2 text-sm lg:text-xl" htmlFor="name">Name</label>
-  <input className="w-full p-2 border rounded text-xs lg:text-lg" type="text" name="name" placeholder="Type your name" required />
+          <label className="block text-gray-700 font-bold mb-2 text-sm lg:text-xl" htmlFor="name">Name</label>
+          <input className="w-full p-2 border rounded text-xs lg:text-lg" type="text" name="name" placeholder="Type your name" required />
   
-  <label className="block text-gray-700 font-bold mb-2 text-sm lg:text-xl" htmlFor="email">Email</label>
-  <input className="w-full p-2 border rounded text-xs lg:text-lg" type="email" name="email" placeholder="Type your email" required />
+          <label className="block text-gray-700 font-bold mb-2 text-sm lg:text-xl" htmlFor="email">Email</label>
+          <input className="w-full p-2 border rounded text-xs lg:text-lg" type="email" name="email" placeholder="Type your email" required />
   
-  <label className="block text-gray-700 font-bold mb-2 text-sm lg:text-xl" htmlFor="message">Message</label>
-  <textarea className="w-full p-2 border rounded text-xs lg:text-lg" name="message" placeholder="Type your message" rows="6" required></textarea>
+          <label className="block text-gray-700 font-bold mb-2 text-sm lg:text-xl" htmlFor="message">Message</label>
+          <textarea className="w-full p-2 border rounded text-xs lg:text-lg" name="message" placeholder="Type your message" rows="6" required></textarea>
 
-  <button className="w-30 font-Jersey text-xl lg:text-2xl tracking-widest bg-orange-600 rounded px-3 py-2 text-white shadow-md shadow-black left-2">
-    Send <i className="fa-solid fa-hands-clapping"></i>
-  </button>
-</form>
+          <button className="w-30 font-Jersey text-xl lg:text-2xl tracking-widest bg-orange-600 rounded px-3 py-2 text-white shadow-md shadow-black left-2">
+            Send <i className="fa-solid fa-hands-clapping"></i>
+          </button>
+        </form>
 
         </div>
         <div>
@@ -74,9 +74,10 @@ export const ContactPage = () => {
             </div>
         </div>
       </div>
+      <br />
       <div className='text-center p-3'>
           <p className='text-xs lg:text-lg mt-3 mb-3'>Copyright <i class="fa-regular fa-copyright"></i> @2024 <b>SANJAY</b></p>
-        </div>
+      </div>
     </div>
 
   );
