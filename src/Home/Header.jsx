@@ -11,15 +11,15 @@ const Header = () => {
             style={{ color: "#4D4D4D" }}
           ></i>
           <i
-            className="fa-brands fa-html5 text-md sm:text-2xl lg:text-4xl sm:px-3 bg-white p-0.5 px-2 py-2 rounded -rotate-12 absolute top-6 right-4 sm:top-10 lg:right-20 animate-bounce"
+            className="fa-brands fa-html5 text-md sm:text-2xl lg:text-4xl sm:px-3 bg-white p-0.5 px-2 py-2 rounded absolute top-6 right-4 sm:top-10 lg:right-20 animate-bounce"
             style={{ color: "#4D4D4D" }}
           ></i>
           <i
-            className="fa-brands fa-css3-alt text-md sm:text-2xl lg:text-4xl sm:px-3 bg-white p-0.5 px-2 py-2 rounded -rotate-12 absolute top-6 right-40 sm:top-10 lg:right-60 animate-bounce"
+            className="fa-brands fa-css3-alt text-md sm:text-2xl lg:text-4xl sm:px-3 bg-white p-0.5 px-2 py-2 rounded top-6 right-40 sm:top-10 lg:right-60 animate-bounce"
             style={{ color: "#4D4D4D" }}
           ></i>
           <i
-            className="fa-brands fa-github text-md sm:text-2xl lg:text-4xl sm:px-3 bg-white p-0.5 px-2 py-2 rounded absolute top-4 left-14 sm:top-10 sm:left-4 animate-bounce"
+            className="fa-brands fa-github text-md sm:text-2xl lg:text-4xl sm:px-3 bg-white p-0.5 px-2 py-2 rounded absolute top-4 left-14 sm:top-10 sm:left-72 lg:left-28 animate-bounce"
             style={{ color: "#4D4D4D" }}
           ></i>
           <i
