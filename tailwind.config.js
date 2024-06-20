@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         SuperMario256: ["SuperMario256", "sans-serif"],
         PallyBold: ["PallyBold", "sans-serif"],
+        Jersey: ["Jersey", "sans-serif"]
       },
       boxShadow: {
         // define your shadow variants here

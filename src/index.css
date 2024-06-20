@@ -11,3 +11,22 @@
   font-family: "PallyBold";
   src: url("./assets/Fonts/PallyBold.otf") format("truetype");
 }
+
+@font-face {
+  font-family: "Jersey";
+  src: url("./assets/Fonts/Jersey10-Regular.ttf");
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
