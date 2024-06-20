@@ -4,7 +4,7 @@ import Resume from "../assets/Images/ResumeWithPic.png";
 const AboutMe = () => {
   return (
     <div>
-      <div className="px-4 h-full bg-gradient-to-r from-gray-300 from-1% via-orange-200 to-gray-300 to-1%">
+      <div className="px-4 h-full bg-gradient-to-r from-gray-300 from-1% via-orange-100 to-gray-300 to-1%">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-xl sm:text-2xl lg:text-4xl font-PallyBold mt-2 lg:mt-20">
             ABOUT ME <i className="fa-solid fa-user text-md lg:text-3xl ml-2"></i>

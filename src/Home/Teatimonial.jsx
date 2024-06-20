@@ -5,7 +5,7 @@ import men2 from "../assets/Images/Testimonial/men2.jpg";
 
 const Teatimonial = () => {
   return (
-    <div className="p-5 h-full bg-gradient-to-r from-gray-300 from-1% via-orange-200 to-gray-300 to-1%">
+    <div className="p-5 h-full bg-gradient-to-r from-gray-300 from-1% via-orange-100 to-gray-300 to-1%">
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-xl lg:text-4xl font-PallyBold mt-3 lg:mt-20">
           TESTIMONIALS <i class="fa-solid fa-comments lg:text-3xl ml-2"></i>

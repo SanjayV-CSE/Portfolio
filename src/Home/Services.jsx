@@ -30,7 +30,7 @@ const Services = () => {
 
   return (
     <div>
-      <div className="p-5 h-full bg-gradient-to-r from-gray-300 from-1% via-orange-200 to-gray-300 to-1%">
+      <div className="p-5 h-full bg-gradient-to-r from-gray-300 from-1% via-orange-100 to-gray-300 to-1%">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-xl lg:text-4xl font-PallyBold mt-2 lg:mt-20">
             MY SERVICES <i class="fa-solid fa-users lg:text-3xl ml-2"></i>

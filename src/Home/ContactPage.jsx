@@ -21,7 +21,7 @@ export const ContactPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-300 via-orange-200 to-gray-300 px-4">
+    <div className="min-h-screen bg-gradient-to-r from-gray-300 via-orange-100 to-gray-300 px-4">
       <div className="flex flex-col items-center">
         <h1 className="text-xl lg:text-4xl font-PallyBold mt-4 lg:mt-20">
           Let's Work Together <i className="fa-solid fa-address-book ml-2"></i>

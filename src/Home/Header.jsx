@@ -4,7 +4,7 @@ import sanjay from '../assets/Images/sanjay.png'
 const Header = () => {
   return (
     <div>
-      <div className="px-2 h-full w-full bg-gradient-to-r from-gray-300 from-1% via-orange-200 to-gray-300 to-1%">
+      <div className="px-2 h-full w-full bg-gradient-to-r from-gray-300 from-1% via-orange-100 to-gray-300 to-1%">
         <div className="relative cursor-pointer top-3">
           <i
             className="fab fa-linkedin text-md sm:text-2xl lg:text-4xl sm:px-3 bg-white p-0.5 px-2 py-2 rounded rotate-12 absolute top-44 left-2 sm:left-20 lg:left-40 animate-bounce"
