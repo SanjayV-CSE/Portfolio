@@ -1,5 +1,5 @@
 import React from "react";
-import sanjay from "../assets/Images/SanjayAboutMe.png";
+import sanjay from "../assets/Images/SanjayAboutME.jpg";
 import Resume from "../assets/Images/ResumeWithPic.png";
 const AboutMe = () => {
   return (
