@@ -1,6 +1,6 @@
 import React from "react";
 import sanjay from "../assets/Images/SanjayAboutME.jpg";
-import Resume from "../assets/Images/SanjayResume.png";
+import Resume from "../assets/Images/SanjayResume.pdf";
 const AboutMe = () => {
   return (
     <div>
